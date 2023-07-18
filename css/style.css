@@ -1,11 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: "Lato", sans-serif;
 }
 
+.header {
+  padding: 15px 0;
+}
+
 .navigation {
   list-style: none;
   padding: 0;
+  margin: 0;
 }
 
 .navigation-link {
@@ -38,6 +47,10 @@ body {
 .button-icon,
 .button-price {
   margin-right: 10px;
+}
+.button-icon:last-child {
+  margin-right: 0;
+  margin-left: 10px;
 }
 
 .slide {
@@ -93,4 +106,90 @@ body {
   background-color: transparent;
   border: none;
   cursor: pointer;
+}
+
+.card {
+  min-height: 370px;
+  background-size: cover;
+  border-radius: 10px;
+  padding-top: 60px;
+  padding-left: 46px;
+  padding-right: 46px;
+  padding-bottom: 80px;
+}
+
+.card-1 {
+  background: lightgray url("../img/card-image-1.jpg") no-repeat top right;
+  background-size: cover;
+}
+
+.card-2 {
+  background: lightgray url("../img/card-image-2.jpg") no-repeat top right;
+  background-size: cover;
+}
+
+.card-3 {
+  background: #ccd5e6 url("../img/card-image-3.png") no-repeat top right 10%;
+  background-size: contain;
+  padding-top: 35px;
+}
+
+.card-4 {
+  background: #ff4f52 url("../img/card-image-4.png") no-repeat top right;
+  background-size: contain;
+  padding-top: 35px;
+  padding-left: 25px;
+}
+
+.card-title {
+  color: #262d33;
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+  max-width: 222px;
+  margin: 0;
+}
+
+.card-title.large {
+  max-width: 420px;
+  font-size: 40px;
+  line-height: 50px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.card-text {
+  color: #4b5157;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  max-width: 176px;
+  margin-bottom: 25px;
+}
+
+.card-text.large {
+  max-width: 320px;
+  color: #4b5157;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.card-price {
+  color: white;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 20px;
+}
+
+.text-light {
+  color: white;
 }
