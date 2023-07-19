@@ -256,3 +256,62 @@ body {
   font-weight: 900;
   line-height: 30px;
 }
+
+.footer-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer {
+  background: #8f79d4;
+  padding-top: 45px;
+  padding-bottom: 40px;
+  color: #fff;
+}
+
+.footer-menu-item:not(:last-child) {
+  margin-right: 40px;
+}
+
+.footer-menu-link {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 20px;
+}
+
+.social-link {
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.footer-text {
+  color: #e7d9ff;
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.footer-line {
+  opacity: 0.5;
+}
+
+.top-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.top-link-text {
+  margin-right: 15px;
+}
+
+.payment-logo {
+  vertical-align: middle;
+  margin-right: 25px;
+}
