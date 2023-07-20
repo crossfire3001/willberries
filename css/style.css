@@ -56,10 +56,15 @@ body {
 .slide {
   padding-top: 90px;
   padding-bottom: 110px;
+  min-height: 568px;
 }
 
 .slide-1 {
-  background: #b4d1e0 url("../img/slide-image-1.png") no-repeat top right 40%;
+  background: #b4d1e0 url("../img/slide-image-1.png") no-repeat top right 30%;
+}
+
+.slide-2 {
+  background: #b9e0b4 url("../img/slide-image-1.png") no-repeat top right 30%;
 }
 
 .label {
@@ -100,6 +105,7 @@ body {
   top: 50%;
   width: 100%;
   transform: translateY(-50%);
+  z-index: 9;
 }
 
 .slider-button {
