@@ -5,4 +5,4 @@ Used tech:
 - CSS
 - Javascript
 - Bootstrap v5
-- Swiper Slider
+- Swiper Slider JS
